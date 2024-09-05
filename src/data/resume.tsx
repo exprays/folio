@@ -238,6 +238,23 @@ export const DATA = {
   ],
   hackathons: [
     {
+      title: "HackAI Dell & Nvidia Challenge",
+      dates: "August 3rd - Present, 2024",
+      location: "Remote",
+      description:
+        "Developing a multi-modal AI assistant tailored for scientific research, capable of processing and analyzing text, images, and numerical data. This assistant will leverage the latest advancements in large language models, computer vision, and scientific computing to assist researchers in various fields.",
+      image:
+        "/nvidia.png",
+      mlh: "https://s3.amazonaws.com/logged-assets/trust-badge/2019/mlh-trust-badge-2019-white.svg",
+      links: [
+        {
+          title: "Github",
+          icon: <Icons.github className="h-4 w-4" />,
+          href: "https://thestarsociety.tech",
+        },
+      ],
+    },
+    {
       title: "Smart India Hackathon 2023",
       dates: "September - November, 2023",
       location: "Remote",
