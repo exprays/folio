@@ -37,29 +37,29 @@ export const DATA = {
     social: {
       GitHub: {
         name: "GitHub",
-        url: "https://dub.sh/dillion-github",
+        url: "https://github.com/exprays",
         icon: Icons.github,
 
         navbar: true,
       },
-      LinkedIn: {
-        name: "LinkedIn",
-        url: "https://dub.sh/dillion-linkedin",
-        icon: Icons.linkedin,
+      Medium: {
+        name: "Medium",
+        url: "https://medium.com/@noodlefx",
+        icon: Icons.medium,
 
         navbar: true,
       },
-      X: {
-        name: "X",
-        url: "https://dub.sh/dillion-twitter",
-        icon: Icons.x,
+      Instagram: {
+        name: "Instagram",
+        url: "https://instagram.com/suryakantsubudhi",
+        icon: Icons.instagram,
 
         navbar: true,
       },
-      Youtube: {
-        name: "Youtube",
-        url: "https://dub.sh/dillion-youtube",
-        icon: Icons.youtube,
+      Pinterest: {
+        name: "Pinterest",
+        url: "https://pinterest.com/frazfx",
+        icon: Icons.pinterest,
         navbar: true,
       },
       email: {
