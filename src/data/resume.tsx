@@ -114,72 +114,65 @@ export const DATA = {
   ],
   projects: [
     {
-      title: "Chat Collect",
-      href: "https://chatcollect.com",
-      dates: "Jan 2024 - Feb 2024",
+      title: "Orion",
+      href: "https://orion.thestarsociety.tech",
+      dates: "April 2024 - September 2024",
       active: true,
       description:
-        "With the release of the [OpenAI GPT Store](https://openai.com/blog/introducing-the-gpt-store), I decided to build a SaaS which allows users to collect email addresses from their GPT users. This is a great way to build an audience and monetize your GPT API usage.",
+        "Developed an insanely fast in-memory KV Database with a built-in query engine, designed for high-performance applications. Orion is built on top of Go, and is designed to be used with the latest web technologies.",
       technologies: [
-        "Next.js",
-        "Typescript",
-        "PostgreSQL",
-        "Prisma",
-        "TailwindCSS",
-        "Stripe",
-        "Shadcn UI",
-        "Magic UI",
+        "golang",
+        "goroutines",
+        "typescript",
+        "nextJS"
       ],
       links: [
         {
           type: "Website",
-          href: "https://chatcollect.com",
+          href: "https://orion.thestarsociety.tech",
           icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/exprays/orion",
+          icon: <Icons.github className="size-3" />,
         },
       ],
       image: "",
       video:
-        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/chat-collect.mp4",
+        "https://exprays.thestarsociety.tech/videos/orion.mp4",
     },
     {
-      title: "Magic UI",
-      href: "https://magicui.design",
-      dates: "June 2023 - Present",
+      title: "Ranger Toolkit",
+      href: "https://github.com/exprays/iotsim",
+      dates: "November 2024 - Present",
       active: true,
       description:
-        "Designed, developed and sold animated UI components for developers.",
+        "Formerly known as iotsim, Ranger Toolkit is a comprehensive toolkit for IoT developers, providing blockchain based security to existing IOT networks. It also comes with its own simulator and the working server. Currently in development.",
       technologies: [
-        "Next.js",
-        "Typescript",
-        "PostgreSQL",
-        "Prisma",
-        "TailwindCSS",
-        "Stripe",
-        "Shadcn UI",
-        "Magic UI",
+        "golang",
+        "typescript",
+        "nextJS",
+        "tailwindcss",
+        "arduino"
       ],
       links: [
         {
-          type: "Website",
-          href: "https://magicui.design",
-          icon: <Icons.globe className="size-3" />,
-        },
-        {
           type: "Source",
-          href: "https://github.com/magicuidesign/magicui",
+          href: "https://github.com/exprays/iotsim",
           icon: <Icons.github className="size-3" />,
         },
       ],
       image: "",
-      video: "https://cdn.magicui.design/bento-grid.mp4",
+      video: "https://exprays.thestarsociety.tech/videos/ranger.mp4",
     },
     {
-      title: "llm.report",
-      href: "https://llm.report",
+      title: "Rocket",
+      href: "https://rocket.thestarsociety.tech",
       dates: "April 2023 - September 2023",
       active: true,
       description:
-        "Developed an open-source logging and analytics platform for OpenAI: Log your ChatGPT API requests, analyze costs, and improve your prompts.",
+        "Developed an open-source Search API based on Hono which can search contents in milliseconds.",
       technologies: [
         "Next.js",
         "Typescript",
@@ -187,32 +180,32 @@ export const DATA = {
         "Prisma",
         "TailwindCSS",
         "Shadcn UI",
-        "Magic UI",
-        "Stripe",
         "Cloudflare Workers",
+        "Redis",
+        "Hono",
       ],
       links: [
         {
           type: "Website",
-          href: "https://llm.report",
+          href: "https://rocket.thestarsociety.tech",
           icon: <Icons.globe className="size-3" />,
         },
         {
           type: "Source",
-          href: "https://github.com/dillionverma/llm.report",
+          href: "https://github.com/exprays/rocket",
           icon: <Icons.github className="size-3" />,
         },
       ],
-      image: "",
-      video: "https://cdn.llm.report/openai-demo.mp4",
+      image: "https://exprays.thestarsociety.tech/images/rocket.png",
+      video: "",
     },
     {
-      title: "Automatic Chat",
-      href: "https://automatic.chat",
+      title: "Yarn Messenger",
+      href: "https://yarn.thestarsociety.tech",
       dates: "April 2023 - March 2024",
-      active: true,
+      active: false,
       description:
-        "Developed an AI Customer Support Chatbot which automatically responds to customer support tickets using the latest GPT models.",
+        "Developed an AI powered messaging platform with built-in chatbots and a powerful search engine. The platform is designed to be used with the latest web technologies and is built on top of Next.js. Servers, channels, video calls and much more!",
       technologies: [
         "Next.js",
         "Typescript",
@@ -220,15 +213,18 @@ export const DATA = {
         "Prisma",
         "TailwindCSS",
         "Shadcn UI",
-        "Magic UI",
-        "Stripe",
-        "Cloudflare Workers",
+        "webRTC"
       ],
       links: [
         {
           type: "Website",
-          href: "https://automatic.chat",
+          href: "https://yarn.thestarsociety.tech",
           icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/exprays/yarn",
+          icon: <Icons.github className="size-3" />,
         },
       ],
       image: "",
@@ -237,6 +233,23 @@ export const DATA = {
     },
   ],
   hackathons: [
+    {
+      title: "Nirmaan By Sillicon tech",
+      dates: "February 6th - February 9th",
+      location: "OnSite, Bhubaneswar",
+      description:
+        "Developing a simulator for Ranger toolkit from scratch using Golang. The simulator can simulate various instances like hacker attempts, legitimate auth cases for our blockchain based IOT Authentication system.",
+      image:
+        "/nirmaan.png",
+      mlh: "https://s3.amazonaws.com/logged-assets/trust-badge/2019/mlh-trust-badge-2019-white.svg",
+      links: [
+        {
+          title: "Github",
+          icon: <Icons.github className="h-4 w-4" />,
+          href: "https://thestarsociety.tech",
+        },
+      ],
+    },
     {
       title: "HackAI Dell & Nvidia Challenge",
       dates: "August 3rd - Present, 2024",
