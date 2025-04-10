@@ -196,7 +196,7 @@ export const DATA = {
           icon: <Icons.github className="size-3" />,
         },
       ],
-      image: "https://exprays.thestarsociety.tech/images/rocket.png",
+      image: "https://exprays.thestarsociety.tech/images/rocket.jpg",
       video: "",
     },
     {
